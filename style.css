@@ -1,0 +1,60 @@
+body{
+    background-image: url(https://i.stack.imgur.com/jGlzr.png);
+    font-family: 'Gideon Roman', cursive;
+}
+
+
+.main-container{
+    /* border: 5px solid red; */
+    margin: auto;
+    width: 60%;
+    height: 90vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#photo{
+    height: 70%;
+    width:100%;
+
+}
+
+h1{
+    color: rgb(14, 19, 100);
+    
+}
+
+#checkmark{
+    width:60px;
+    height: 60px;
+    padding-left: 20px;
+}
+
+.top-part{
+display: flex;
+}
+
+.list{
+    background-image: url(http://timvandevall.com/wp-content/uploads/edd/printable-notebook-paper-landscape-black-lines-350.jpg);
+    /* border: 5px solid red; */
+    height:70%;
+    width:88%;
+    background-size: cover;
+    background-position: center;
+    padding-left: 7rem;
+    padding-top: 7.7rem;
+    font-size: 1.7rem;
+    color: olivedrab;
+}
+
+hr{
+    height:10px;
+    width: 100%;
+    background-color: orange;
+}
+
+input[type="checkbox"]{
+    margin-top: 15px;
+}
